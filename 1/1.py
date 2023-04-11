@@ -12,5 +12,5 @@ class Hexagon:
         return (3 * (3 ** 0.5) * self.a ** 2) / 2
 
     def print_info(self):
-        print("Шайба зі стороною довжиною ", self.a)
-        print("Площа шайби: ", self.area())
+        print("Шайба зі стороною довжиною  ", self.a)
+        print("Площа шайби:  ", self.area())
