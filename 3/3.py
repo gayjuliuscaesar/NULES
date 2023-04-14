@@ -16,7 +16,7 @@ class Student:
 
 
 def main():
-    grade = input('Введіть бал по фізиці, вибірку з якого бажали б отримати: ')
+    grade = input('Введіть бал по фізиці, вибірку з якого бажали б отримати ')
 
     with open('data.txt', 'r', encoding='utf-8') as data:
         stud_list = []
